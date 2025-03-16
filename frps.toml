@@ -1,4 +1,4 @@
-bindAddr = "0.0.0.0"
+bindAddr = "154.85.20.78"
 bindPort = 7000
 #kcpBindPort = 7000
 quicBindPort = 7000
@@ -14,8 +14,8 @@ transport.tls.force = false
 
 webServer.addr = "0.0.0.0"
 webServer.port = 7500
-webServer.user = "admin"
-webServer.password = "admin"
+webServer.user = "YJHxx2561"
+webServer.password = "yjh20050601"
 webServer.pprofEnable = false
 
 log.to = "./frps.log"
@@ -24,7 +24,7 @@ log.maxDays = 3
 log.disablePrintColor = false
 
 auth.method = "token"
-auth.token = "12345678"
+auth.token = "yjh20050601"
 
 allowPorts = [
   { start = 10001, end = 50000 }
